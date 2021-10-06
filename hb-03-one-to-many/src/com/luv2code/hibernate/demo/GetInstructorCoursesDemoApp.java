@@ -32,10 +32,19 @@ public class GetInstructorCoursesDemoApp {
 			int id = 1;
 			Instructor instructor = session.get(Instructor.class, id);
 
-			System.out.println("Instructor: " + instructor);
+			System.out.println("\nInstructor: " + instructor);
 
 			// get courses for the instructor
-			System.out.println("Courses: " + instructor.getCourses());
+			System.out.println("\nCourses: " + instructor.getCourses());
+
+			// get course
+			int courseId = 10;
+			Course course = session.get(Course.class, courseId);
+
+			// delete the course
+			System.out.println("\nDeleting course: " + course);
+
+			session.delete(course);
 
 			// commit transaction
 			session.getTransaction().commit();
