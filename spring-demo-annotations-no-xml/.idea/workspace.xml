@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eca5dc00-0c79-49dc-a492-330d78fa0f86" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ylr1Rrmpf2Lay2d1PXycZV2yWf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.luv2code.springdemo" />
+      <recent name="com.luv2code.springdemo.Coach" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\spring_hibernate\spring-demo-annotations-no-xml\src\com\luv2code\springdemo\Fortune" />
+      <recent name="C:\Projects\spring_hibernate\spring-demo-annotations-no-xml" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JavaConfigDemoApp">
+    <configuration name="JavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.JavaConfigDemoApp" />
+      <module name="spring-demo-annotations-no-xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwimJavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.springdemo.SwimJavaConfigDemoApp" />
+      <module name="spring-demo-annotations-no-xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JavaConfigDemoApp" />
+        <item itemvalue="Application.SwimJavaConfigDemoApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eca5dc00-0c79-49dc-a492-330d78fa0f86" name="Default Changelist" comment="" />
+      <created>1632836800124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632836800124</updated>
+      <workItem from="1632836804973" duration="3232000" />
+      <workItem from="1632924777293" duration="597000" />
+      <workItem from="1633070875696" duration="1152000" />
+      <workItem from="1633072830404" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2685" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1633071158718">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633071158718" />
+    <state x="2270" y="288" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1632837625537">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2270" y="288" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1632837625537" />
+    <state x="2170" y="365" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1632837627688">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2170" y="365" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1632837627688" />
+    <state x="2146" y="352" key="FileChooserDialogImpl" timestamp="1633072852544">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2146" y="352" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633072852544" />
+    <state width="1876" height="269" key="GridCell.Tab.0.bottom" timestamp="1633072745221">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633072745221" />
+    <state width="1876" height="269" key="GridCell.Tab.0.center" timestamp="1633072745221">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633072745221" />
+    <state width="1876" height="269" key="GridCell.Tab.0.left" timestamp="1633072745221">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633072745221" />
+    <state width="1876" height="269" key="GridCell.Tab.0.right" timestamp="1633072745221">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633072745221" />
+    <state x="2133" y="174" key="SettingsEditor" timestamp="1632837825894">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2133" y="174" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1632837825894" />
+    <state x="2262" y="138" key="new project wizard" timestamp="1633072853928">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2262" y="138" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1633072853928" />
+  </component>
+</project>
