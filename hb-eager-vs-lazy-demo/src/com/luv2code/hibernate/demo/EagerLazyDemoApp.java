@@ -34,15 +34,20 @@ public class EagerLazyDemoApp {
 
 			System.out.println("\nInstructor: " + instructor);
 
-			// get courses for the instructor
-			System.out.println("\nCourses: " + instructor.getCourses());
-
 			// get course
 			int courseId = 10;
 			Course course = session.get(Course.class, courseId);
 
 			// commit transaction
 			session.getTransaction().commit();
+
+			// close the session
+			session.close();
+
+			// NOTE: since courses are lazy loaded ... this should FAIL!
+
+			// get courses for the instructor
+			System.out.println("\nCourses: " + instructor.getCourses());
 
 			System.out.println("\nDone!");
 
