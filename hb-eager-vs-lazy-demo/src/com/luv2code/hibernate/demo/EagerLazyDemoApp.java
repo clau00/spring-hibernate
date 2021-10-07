@@ -41,11 +41,6 @@ public class EagerLazyDemoApp {
 			int courseId = 10;
 			Course course = session.get(Course.class, courseId);
 
-			// delete the course
-			System.out.println("\nDeleting course: " + course);
-
-			session.delete(course);
-
 			// commit transaction
 			session.getTransaction().commit();
 
