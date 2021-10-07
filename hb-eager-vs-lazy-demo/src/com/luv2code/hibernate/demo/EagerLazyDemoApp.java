@@ -3,6 +3,7 @@ package com.luv2code.hibernate.demo;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 
 import com.luv2code.hibernate.demo.entity.Course;
 import com.luv2code.hibernate.demo.entity.Instructor;
@@ -30,7 +31,16 @@ public class EagerLazyDemoApp {
 
 			// get the instructor from DB
 			int id = 1;
-			Instructor instructor = session.get(Instructor.class, id);
+
+			Query<Instructor> query =
+					session.createQuery("select i from Instructor i JOIN FETCH i.courses "
+										+ "where i.id = :theInstructorId", Instructor.class);
+
+			// set parameter on query
+			query.setParameter("theInstructorId", id);
+
+			// execute query and get instructor
+			Instructor instructor = query.getSingleResult();
 
 			System.out.println("\nInstructor: " + instructor);
 
@@ -38,16 +48,15 @@ public class EagerLazyDemoApp {
 			int courseId = 10;
 			Course course = session.get(Course.class, courseId);
 
-			// get courses for the instructor
-			System.out.println("\nCourses: " + instructor.getCourses());
-
 			// commit transaction
 			session.getTransaction().commit();
 
 			// close the session
+			System.out.println("\nSession is now closed!");
 			session.close();
 
-			// NOTE: since courses are lazy loaded ... this should FAIL!
+			// get courses for the instructor
+			System.out.println("\nCourses: " + instructor.getCourses());
 
 			System.out.println("\nDone!");
 
