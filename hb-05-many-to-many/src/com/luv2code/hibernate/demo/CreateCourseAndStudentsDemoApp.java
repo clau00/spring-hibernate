@@ -4,12 +4,9 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import com.luv2code.hibernate.demo.entity.Course;
-import com.luv2code.hibernate.demo.entity.Instructor;
-import com.luv2code.hibernate.demo.entity.InstructorDetail;
-import com.luv2code.hibernate.demo.entity.Review;
+import com.luv2code.hibernate.demo.entity.*;
 
-public class CreateCourseAndReviewsDemoApp {
+public class CreateCourseAndStudentsDemoApp {
 
 	public static void main(String[] args) {
 
@@ -20,6 +17,7 @@ public class CreateCourseAndReviewsDemoApp {
 				.addAnnotatedClass(InstructorDetail.class)
 				.addAnnotatedClass(Course.class)
 				.addAnnotatedClass(Review.class)
+				.addAnnotatedClass(Student.class)
 				.buildSessionFactory();
 
 		// create session
@@ -33,17 +31,25 @@ public class CreateCourseAndReviewsDemoApp {
 			// create a course
 			Course course = new Course("a new Course");
 
-			// add some reviews
-			course.addReview(new Review("the first review"));
-			course.addReview(new Review("the second review"));
-			course.addReview(new Review("the third review"));
 
-			// save the course ... and leverage the cascade all
+			// save the course
 			System.out.println("\nSaving the course...");
-			System.out.println(course);
-			System.out.println(course.getReviews());
-
 			session.save(course);
+			System.out.println("\nSaved the course: " + course);
+
+			// create the students
+			Student student1 = new Student("John", "Doe", "john@doe.com");
+			Student student2 = new Student("Mary", "Public", "mary@public.com");
+
+			// add students to the course
+			course.addStudent(student1);
+			course.addStudent(student2);
+
+			// save the students
+			System.out.println("\nSaving students...");
+			session.save(student1);
+			session.save(student2);
+			System.out.println("\nSaved students: " + course.getStudents());
 
 			// commit transaction
 			session.getTransaction().commit();
