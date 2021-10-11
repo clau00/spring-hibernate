@@ -2,7 +2,7 @@ package com.luv2code.springdemo.entity;
 
 import javax.persistence.*;
 
-@Entity(name = "customer")
+@Entity()
 @Table(name = "customer")
 public class Customer {
 
