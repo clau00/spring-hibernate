@@ -1,5 +1,7 @@
 package com.luv2code.springdemo.dao;
 
+import javax.transaction.Transactional;
+
 import java.util.List;
 
 import org.hibernate.Session;
@@ -49,5 +51,19 @@ public class CustomerDAOImpl implements CustomerDAO {
 		Customer customer = session.get(Customer.class, customerId);
 
 		return customer;
+	}
+
+	@Override
+	@Transactional
+	public void deleteCustomer(int customerId) {
+		// get current hibernate session
+		Session session = sessionFactory.getCurrentSession();
+
+		// delete the customer
+		Query query = session.createQuery("delete from Customer where id= :customerId");
+
+		query.setParameter("customerId", customerId);
+
+		query.executeUpdate();
 	}
 }
